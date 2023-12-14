@@ -1,0 +1,23 @@
+What we want to do?
+
+appl'n:-
+	1. voting app -> python listening on port 80
+	2. result app -> node listening on port 80
+	3. redis mdb -> listening on port 6379 
+	4. postgres -> listening on port 5432
+	5. worker node -> does not listen, only does processing
+
+
+services:-
+	1. redis service 
+	2. postgres service
+	3. voting app service
+	4. result app service
+
+
+
+1. deploy single pod functionality apps
+2. a single application on a single pod
+3. file to create:
+	- pod definition files:
+		- voting app:
